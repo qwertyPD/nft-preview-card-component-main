@@ -1,0 +1,104 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+}
+
+.card {
+    width: 270px;
+    height: 495px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -135px;
+
+    border-radius: 15px;
+    padding: 20px;
+
+    background-color: hsl(216, 50%, 16%);
+}
+
+.card__image-equilibrium {
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card__eth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__eth-block  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95px;
+    font-weight: 600;
+}
+
+.card__date-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.card__date {
+    padding-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+.card__value {
+    color: hsl(178, 100%, 50%);
+}
+
+.card__line {
+    margin-top: 20px;
+    border: 0.1px solid;
+    transform: scaleY(0.1);
+    color: hsl(215, 51%, 70%);
+}
+
+.card__footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.card__avatar {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.card__sign {
+    color: hsl(215, 51%, 70%);
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.card__name {
+    text-decoration: none;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
